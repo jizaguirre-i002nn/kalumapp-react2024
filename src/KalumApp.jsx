@@ -1,9 +1,14 @@
-import React from 'react'
+import { Typography } from '@mui/material'
+import { AppTheme } from  './theme'
 
 export const KalumApp = () => {
    return (
-    <div>KalumApp</div>
-  )
+    <AppTheme>
+        <Typography variant='h5'>
+            kALUM
+        </Typography>
+    </AppTheme>
+)
 }
 
 
